@@ -1,0 +1,210 @@
+:root {
+  --main-text: #434455;
+  --background-color: #ffffff;
+  --logo-color: #4d5ae5;
+  --description-text: #2e2f42;
+  --hover-focus-color: #404bbf;
+  --section-background-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text);
+  background-color: var(--background-color);
+}
+
+.list {
+  list-style: none;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+.logo-text {
+  color: var(--description-text);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--hover-focus-color);
+}
+
+.link:focus {
+  color: var(--hover-focus-color);
+}
+
+.nav-first {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--description-text);
+}
+
+.adress-list {
+  font-style: normal;
+}
+
+.adress-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+
+.adress-list-item:hover {
+  color: var(--hover-focus-color);
+}
+
+.adress-list-item:focus {
+  color: var(--hover-focus-color);
+}
+/* Sections */
+
+.section-description {
+  background-color: var(--description-text);
+}
+
+.section-description-item {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+}
+
+.section-description-btn {
+  background-color: var(--logo-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+  cursor: pointer;
+}
+.section-description-btn:hover {
+  background-color: var(--hover-focus-color);
+}
+
+.section-description-btn:focus {
+  background-color: var(--hover-focus-color);
+}
+
+.section-features-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--description-text);
+}
+
+.section-features-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+
+.section-doing {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--description-text);
+}
+
+.section-team {
+  background-color: var(--section-background-color);
+}
+.section-team-head {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--description-text);
+}
+
+.section-team-item {
+  background-color: var(--background-color);
+}
+
+.section-team-person {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--description-text);
+}
+
+.section-team-person-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+/* Footer */
+
+.footer-main {
+  background-color: var(--description-text);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.logo-footer-text {
+  color: var(--section-background-color);
+}
+
+/* Portfolio */
+
+.section-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--section-background-color);
+  cursor: pointer;
+}
+
+.section-btn:hover {
+  color: var(--background-color);
+  background-color: var(--hover-focus-color);
+}
+
+.section-btn:focus {
+  color: var(--background-color);
+  background-color: var(--hover-focus-color);
+}
+
+.section-service-descrip {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--description-text);
+}
+.section-service-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
