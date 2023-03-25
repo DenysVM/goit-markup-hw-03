@@ -26,49 +26,62 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-text link">Studio</span></a
-        >
-        <ul class="list">
-          <li><a class="nav-first link" href="./index.html">Studio</a></li>
-          <li>
-            <a class="nav-first link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="nav-first link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="adress-list">
-        <ul class="list">
-          <li>
-            <a class="adress-list-item link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="adress-list-item link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="container">
+      <div class="main-nav">
+        <nav class="nav-list">
+          <!-- Logo -->
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-text link">Studio</span></a
+          >
+          <!-- Navigation menu -->
+          <ul class="site-nav list">
+            <li class="items"><a href="./index.html">Studio</a></li>
+            <li class="items"><a href="./portfolio.html">Portfolio</a></li>
+            <li class="items"><a href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <!-- Adress -->
+        <address class="adress-list">
+          <ul class="list adress-items">
+            <li class="items">
+              <a class="adress-list-item link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="items">
+              <a class="adress-list-item link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
-    <main>
+    <main class="container">
       <section>
         <!-- Buttons -->
         <h1 hidden>Main section</h1>
-        <ul class="list">
-          <li><button class="section-btn" type="button">All</button></li>
-          <li><button class="section-btn" type="button">Web Site</button></li>
-          <li><button class="section-btn" type="button">App</button></li>
-          <li><button class="section-btn" type="button">Design</button></li>
-          <li><button class="section-btn" type="button">Marketing</button></li>
+        <ul class="list btn-list">
+          <li class="items">
+            <button class="section-btn" type="button">All</button>
+          </li>
+          <li class="items">
+            <button class="section-btn" type="button">Web Site</button>
+          </li>
+          <li class="items">
+            <button class="section-btn" type="button">App</button>
+          </li>
+          <li class="items">
+            <button class="section-btn" type="button">Design</button>
+          </li>
+          <li class="items">
+            <button class="section-btn" type="button">Marketing</button>
+          </li>
         </ul>
         <!-- Services -->
-        <ul class="list">
-          <li>
+        <ul class="list services-list">
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/imgpf_-8.jpg"
@@ -82,7 +95,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/imgpf_-7.jpg"
@@ -94,7 +107,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/imgpf_-6.jpg"
@@ -106,7 +119,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img src="./images/imgpf_-5.jpg" alt="Taxi Service" width="360" />
               <h2 class="section-service-descrip">Taxi Service</h2>
@@ -114,7 +127,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/imgpf_-4.jpg"
@@ -126,7 +139,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/imgpf_-3.jpg"
@@ -138,7 +151,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/imgpf_-2.jpg"
@@ -150,7 +163,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img src="./images/imgpf_-1.jpg" alt="Organic Food" width="360" />
               <h2 class="section-service-descrip">Organic Food</h2>
@@ -158,7 +171,7 @@
             </a>
           </li>
 
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img src="./images/imgpf_.jpg" alt="Organic Food" width="360" />
               <h2 class="section-service-descrip">Fresh Coffee</h2>
@@ -169,7 +182,7 @@
       </section>
     </main>
 
-    <footer class="footer-main">
+    <footer class="footer-main container">
       <a class="footer-logo link" href="./index.html"
         >Web<span class="logo-footer-text link">Studio</span></a
       >
