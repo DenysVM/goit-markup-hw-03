@@ -24,18 +24,21 @@ body {
 }
 
 .container {
-  width: 1440px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -46,7 +49,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
-  margin-left: 156px;
 }
 .logo-text {
   color: var(--description-text);
@@ -90,11 +92,11 @@ body {
 
 .adress-list {
   font-style: normal;
+  margin-left: auto;
 }
 
 .adress-items {
   display: flex;
-  margin-right: 156px;
 }
 
 .adress-items .items + .items {
@@ -120,10 +122,10 @@ body {
 .section-description {
   background-color: var(--description-text);
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  height: 600px;
+  align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .section-description-item {
@@ -160,16 +162,15 @@ body {
 
 .section-features-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.section-features .item {
-  width: 264px;
+.section-features .item-features {
+  width: calc((100% - 24px * 3) / 4);
 }
 
-.section-features .item + .item {
+.section-features .item-features + .item-features {
   margin-left: 24px;
 }
 
@@ -179,6 +180,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--description-text);
+  margin-bottom: 8px;
 }
 
 .section-features-item-text {
@@ -197,17 +199,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--description-text);
-  padding-top: 120px;
 }
 
 .section-doing-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 
-.section-doing-list .item + .item {
+.section-doing-list .doing-item + .doing-item {
   margin-left: 24px;
 }
 
@@ -215,6 +214,8 @@ body {
 
 .section-team {
   background-color: var(--section-background-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-team-head {
   font-size: 36px;
@@ -223,18 +224,15 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--description-text);
-  padding: 120px 0 72px;
-  margin-top: 120px;
+  margin-bottom: 72px;
 }
 
 .section-team-list {
   display: flex;
-  justify-content: center;
-  padding-bottom: 120px;
 }
 
 .section-team-list .section-team-item + .section-team-item {
-  padding-left: 24px;
+  margin-left: 24px;
 }
 
 .section-team-item {
@@ -249,6 +247,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--description-text);
   background-color: var(--background-color);
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .section-team-person-text {
@@ -258,19 +258,20 @@ body {
   color: var(--main-text);
   text-align: center;
   background-color: var(--background-color);
+  padding-bottom: 32px;
+}
+
+.team-person-description {
 }
 
 /* Footer */
 
 .footer-main {
   background-color: var(--description-text);
-  height: 312px;
-
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-
   padding-left: 156px;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -284,8 +285,11 @@ body {
 
 .logo-footer-text {
   color: var(--section-background-color);
-  max-width: 264px;
   margin-top: 18px;
+}
+
+.footer-size {
+  max-width: 264px;
 }
 
 /* Portfolio */
@@ -294,7 +298,7 @@ body {
   display: flex;
   justify-content: center;
 
-  margin: 96px 0 72px 0;
+  padding: 96px 0 72px 0;
 }
 
 .section-btn {
@@ -349,19 +353,22 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--description-text);
-  padding-left: 16px;
-  padding-top: 32px;
 }
 .section-service-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text);
-  padding-left: 16px;
-  padding-bottom: 32px;
+  margin-top: 8px;
 }
 
 .section-service-border {
   border: 1px solid #e7e9fc;
   border-top: transparent;
+}
+
+.section-service-card {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
