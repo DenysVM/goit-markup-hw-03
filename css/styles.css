@@ -163,10 +163,13 @@ body {
 
 /* Features */
 
-.section-features-list {
-  display: flex;
+.section-features {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.section-features-list {
+  display: flex;
 }
 
 .section-features .item-features {
@@ -196,6 +199,10 @@ body {
 /* Doing */
 
 .section-doing {
+  padding-bottom: 120px;
+}
+
+.section-doing-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -240,6 +247,7 @@ body {
 
 .section-team-item {
   background-color: var(--section-background-color);
+  padding-top: 32px;
 }
 
 .section-team-person {
@@ -249,9 +257,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--description-text);
-  background-color: var(--background-color);
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .section-team-person-text {
@@ -260,11 +266,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text);
   text-align: center;
-  background-color: var(--background-color);
-  padding-bottom: 32px;
 }
 
 .team-person-description {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--background-color);
 }
 
 /* Footer */
@@ -296,10 +303,14 @@ body {
 
 /* Portfolio */
 
+.section-main {
+  padding-top: 96px;
+}
+
 .btn-list {
   display: flex;
   justify-content: center;
-  padding: 96px 0 72px 0;
+  margin-bottom: 72px;
 }
 
 .section-btn {
@@ -313,8 +324,6 @@ body {
   background-color: var(--section-background-color);
   cursor: pointer;
   border: 1px solid #e7e9fc;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
