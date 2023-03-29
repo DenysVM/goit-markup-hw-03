@@ -247,7 +247,6 @@ body {
 
 .section-team-item {
   background-color: var(--section-background-color);
-  padding-top: 32px;
 }
 
 .section-team-person {
@@ -305,6 +304,7 @@ body {
 
 .section-main {
   padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .btn-list {
@@ -359,6 +359,9 @@ body {
 
 .item:nth-child(3n) {
   margin-right: 0px;
+}
+
+.item:nth-child(n + 6) {
   margin-bottom: 0px;
 }
 
